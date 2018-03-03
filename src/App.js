@@ -42,7 +42,7 @@ class App extends Component {
 
   render() {
     return (
-		 <Container>
+		 <Container style={{marginTop: 20}}>
 
 			 <Row>
 				 <Col><h3>Bitstamp USD/BTC</h3>
@@ -56,8 +56,8 @@ class App extends Component {
 					 </div>
 				 </Col>
 				 <Col><h3>Poloniex USD/BTC</h3><div>poloniex price stream</div></Col>
-				 <Col>.col</Col>
-				 <Col>.col</Col>
+				 <Col><h3>GDAX USD/BTC</h3><div>gdax price stream</div></Col>
+				 <Col><h3>Kraken USD/BTC</h3><div>kraken price stream</div></Col>
 			 </Row>
 
 		 </Container>
